@@ -313,3 +313,289 @@ $M_{2} = C + D_{v} + D_{p}$
 
 - Ejercicios
 - Modelos
+
+
+## Clase 2: Dinero y multiplicador monetario
+
+La creación de dinero viene del Banco Central pero también hay una creación de dinero secundaria por parte de bancos comerciales.
+
+**Función del dinero**
+
+La diferencia del dinero con otros activos es su liquidez, por lo que es fácil de transar.
+
+1. Medio de pago
+2. Unidad de cuenta: sirve para contar cosas.
+- La UF está indexada a la inflación, pues corrige por el poder adquisitivo.
+3. Depósito de valor: también sirve para acumular activos, lo que permite trasladar dinero para suavizar el consumo.
+
+El dinero es fiduciario, es decir, no tiene un valor intrínseco si no que el de transferencia. No solo es introducir una moneda (bitcoins), sino que sean aceptada.
+
+**Cantidad de dinero** u **Oferta de dinero**
+
+La oferta del dinero, se define como
+$$M_1 = C + D_v$$
+
+- $C$: circulante
+- $D_v$:
+
+El $M_1$ es altamente líquida. Mientras que el $M_2$ será menos líquido.
+
+$$M_2 = M_1 + D_p$$
+
+![](img/01clase2.jpg)
+
+Enn marzo 2020 fue fijar el mínimo técnico en 0.5% (no puede ser 0, para poder generar algún grado del sistema financiero). Ese valor se tuvo hasta julio 2021 (0.75%). Bajando tanto la tasa aumenta el $C$ (circulante).
+
+La tasa que fija el Banco Central (TPM) 0.5%, que define la tasa de flujo entre Bancos Privados y Banco Central. Te presto TPM + 25 puntos bases. Entonces se presta a 0.75%.
+
+
+**Objetivos del Banco Central**
+
+1. Mantener los estables, control inflación
+2. Mantener estabilidad del sistema bancario
+  - Tasa interbancaria: tasa entre que los bancos se prestan.
+3. ¿Desempleo? pues tiene efecto la política monetaria al corto plazo.
+
+
+Mientras más alta la TPM, se frena la inflación pues se es más cautos, se presentan menos creditos pues si hay que devolver la plata desde bancos privados y no tienen plata, será más dificil devolver la plata. Entonces el BC sube el TPM y se es más cauto en prestar plata, se financian menos cosas (inversión).
+
+**Oferta de Dinero** (M)
+
+- M no es lo mismo que H (la base monetaria)
+- El Banco Central afecta la oferta de dinero, sino que la emisión de dinero.
+- El H (emisión) el BC tiene su monopolio.
+
+
+**Multiplicador monetario**
+
+El multiplicador monetario podrá cuantificar la cantidad máxima. Nace como una implicancia del sistema de reservas.
+Mide la máxima cantidad de dinero en una economías
+
+El multiplicador nace como una implicancia de los sistemas de reserva impuestos a bancos privados.
+  - Los bancos están obligados a mantener un % de sus depósitos como Reservas
+  - A esto se le conoce como "encaje legal"
+
+
+Ese dinero no siempre está en la reserva, por el costo de oportunidad de tenerlo aí. Sino que se reinvierte.
+
+Encaje legal: basilea III. ¿cuál es el porcentaje de encaje legal?
+
+**Reservas** (R)
+
+Estudiaremos el rol de las reservas en el **proceso de creación** secunaria de dinero.
+
+Lo que hace la ley al final del día lo que hace es que las reservas sean iguales o mayor a los depósitos totales del banco.
+
+Imáginemos que el encaje es de 20%, la reserva no será 30%.
+
+**Base monetaria** (H)
+Se refiere a la *emisión de dinero*. El BC emite dinero, circula, y ese circulante es depositado por las personas. Y ese depositado es prestado por las personas.
+
+
+BC --> hace H --> bancos privados (min 16.16)
+
+Un porcentaje de la emisión está en las personas y la otra está en personas.
+
+La base monetaria será circulantes más reservas.
+
+Ahora supongamos que la gente tiene preferencias por C sobre D. Una parte me lo llevo al bolsillo y otra la deposito.
+
+- El BC inyecta 100, y los bancos privados lo reinvierten y los encajes son pocos. Entonces el dinero en la economía circulante es mayor (**solo por el giro del banco de prestar plata**). Por eso se ve que el multiplicador es positivo.
+
+Prueba:
+La relación entre el dinero y la emisión, es el multiiplicador monetario (mm).
+
+La cantidad de emisión del banco central es mayor.
+
+
+---
+
+Dibujo: si sumo las cosas que voy dando vueltas de p1, p2, p3, llegaré al multiplicador. Eso se genera por prestar plata que no tienen.
+
+  - Con eso hblaremos de tasa interbancarias
+  - Oferta monetaria.
+
+
+## Clase 3
+
+### Oferta de dinero
+
+El **banco es como una guadería de dinero**, con esto el banco acredita tu dinero en la cuenta,
+
+#### Fractional reserve banking
+
+- Suponga  que para todo peso depositado en los Bancos
+
+  - Una fraccion $\theta$ pertenece (0,1) es almacenado como reservas
+  - Una fracción $1-\theta$ es prestada para Bob
+
+- Por ahora para simplificar: Bob no deposita dinero en el bancos
+- Suponga que el banco central imprimir X pesos y lo transfiere a John
+
+- John deposita todo que recibe en el banco
+- Pregunta: ¿cuánto ha cambiado la oferta de dinero?
+
+
+El banco al hacer prestamos, termina por crer dinero en la economía. No siempre esto tiene un lastre en la economía.
+
+Por eso no solo el **banco central** afecta la oferta de dinero en la economía, sino que también los **bancos comerciales**.
+
+**Escenario 2**
+Ahoea suponga otro Escenario
+ - Bob tambien depsita el dinero que recibe como prestamos en algun bancos
+ - que a su vez presta una fraccion 1- $\theta$ de los depósitos recibidos a Ana
+ - que a su vez deposuta todo en el banco que presta a Amanda
+
+ ¿Cuanto cambia la oferta de dinero cuando el banco central imprime X pesos y lo transfiere a John?
+
+
+**M depende**
+- Cantidad que el banco central imprime
+- Del comportamiento de los bancos (prestamos vs acumular reservas)
+- Cuanto las personas usan sus cuentas de deposito
+
+Si...c comportamiento de las personas
+
+- $c$: C/D > 0
+
+## Clase 3
+
+H es una variable endógena para el Banco Central. El proceso de prestar dinero desde los bancos produce dinero.
+
+Si $\theta$ = 1, tendría que guardar todo, y no habría creación secundaria del dinero. La Basilea es quén regula el $\theta$, que es del mercado de capitales.
+
+Si los bancos creen que hay riesgo de corridas bancarias - "corralitos", por la incertidumbre económica hay momentos en donde la gente deja de creer en el sistema financiero, y van a sacar su plata (por expectativas, Nash). Eso podría incentivar a los bancos comerciales podrían aumentar su $\theta$.
+
+Dado que el banco está prestando menos, el dinero circulando será menor, entonces el multiplicador será menor
+
+
+### Balance Banco Central
+
+- Reservas internacionales: monedas, que sirven para mantener la estabilidad del sistema financiero, principalmente del **tipo de cambio** (eStán en moneda extranjera y no nacional).
+
+Sirven de estabilidad del tipo de cambio puede afectar la inflación doméstica. La eslaticidad del past true
+
+- Crédito interno: bancos privados o instituciones financieras. Esto pasa a ser un activo del Banco Central y pasivos para bancos privados. La TPM tiene que ver con esta partida del crédito interno ( la tasa que presta el dinero)
+- Deuda pública
+
+Pasivos
+- El circulante es pasivo pues el Banco Central tienen que hacer respaldo del dinero. Y eso mantiene la estabilidad de la economía.
+- Reservas: $R=\theta D$ el encaje legal es un pasivo, pues se los debe a los bancos. Y luego será un activo para el sistema financieras.
+
+
+En la práctica **¿Cómo el BC crea dinero?**
+
+Existen distintos mecanismos para crear dinero.
+
+1. Operaciones de crédito interno
+* Mercado abierto:
+* Creditos a bancos a privado
+
+
+**Operaciones de mercado abierto**
+Compra de instrumentos financieros. Por ejemplo, bonos por dineros.
+
+Supongamos que BC quiere aumentar el H. Lo que hará la TGR (Tesorería General de la República) es emitir un bono. Ese bono se paga con plazo. Y cuando se paga ese bono, la TGR, lo paga.
+
+Se hace con un papel, y con eso inyecta plata a la TGR.
+
+
+**¿Autonomía del Banco Central?**
+
+- ¿ Qué pasa con las operaciones de mercado abierto?
+- ¿Cómo hacer política monetaria si se pierde la autonomía? Se puede hacer que esta comproa-venta ya no sea por bonos, a partir de *prendas* (dejar algo en parte de pago).
+
+
+$Qi$: con bonos a largo plazo, puede aumentar la tasa de rendimiento.
+
+TPM: es a dos años.
+
+IPOM: a dos años plazos.
+
+
+
+## Clase 4
+
+**Operaciones de mercado abierto**
+
+El banco central  aumenta el $B_g^b$, así aumenta H y también M.
+
+Esta operación en banco central y sector públicos.
+
+**Operaciones a Bancos Privados**
+- Si el Banco  Central quisiera aumentar H, puede hacerlo aumentado la linea de crédito a bancos privados.
+- En otras palabras, auemta la base monetaria aumentando prestamos  al sistema financiero.
+- Dado que la decisión proviene del Central es ésta institución quién asume **la myor parte** del riesgo de dicho préstamos.
+- Este tipo de operaciones son importantes sobretodo en tiempos de **estrés** financiero. Esto tiene que ver con el nivel de reserva de depósitos (un banco que esté muy cerca del límite, entonces se ven las hojas de balances)
+
+Mantener la estabilidad del sistema financiero es objetivo del Banco Central (junto con la **estabilidad** del (1) nivel de precios y el (2) sistema financiero)
+
+Los bancos aceptan el crédito no solo porque el Banco Central asume deuda, sino que la tasa es más baja.
+
+
+#### Política Monetaria en la práctica
+
+- Como saben la Política Monetaria se basa en la fijación de la tasa de política monetaria (TPM). Esto ocurre pues dado que el banco central mueve la oferta
+
+- Mirando las hojas de balance, comentamos que la TPM determina la tasa apromedio a la que los bancos y otras instituciones financieras se prestan fondos entre ellos *overnight*)
+
+- Veamos ¿cómo esta tasa incide en la economía **en la práctica**?
+
+**Implementación de la política monetaria**
+
+El BCCh ejecutiva su política monetaria influyendo en la tasa interés interbancaria *overnight*. Esta corresponde a la tasa a la cual los banco se otorgan créditos entre sí, de un día a otro. Como cuaquier otro mercado, el precio (en este caso, la tasa de interés interbancaria)
+
+
+El **corredor** de la tasa de la política moentaria, hay dos mecanismos. Para regular a diario la liquidez existen dos mecanismos principales FPL y FPD.
+
+Tasa política monetaria a 25 puntos bases.
+
+Los bancos privados deciden guardar plata en el BC, ganando un poco de interés.
+
+Entonces son dos tasas: hay 25 puntos bases arriba y 25 puntos bases hacia abajo. La gran mayoría de los bancos centrales funcionan así. La diferecia está cuando se define estar sobre el 0 (on the floor).
+
+Tasa politca monetaria es la que fija el BC. El BC ofrece + 25 por sacar y -25 por guardar. La overnight (interbancaria) es controlada por ese 25bp, pues no se moverásobre ese corredor pues si no saldria mas caro pedir credito o muy caro guardar.
+
+Si se sube TPM, va a subir el costo de la liquidez. Entonces los bancos va a implicar que los bancos serán más cuidadoso de prestar plata. Entonces con eso se puede *regular la inflación*.
+
+La política monetaria es corta, se mira a corto plazo.
+
+Tasa de política monetaria en USA
+- Discount rate: tasa a la que presta.
+- Reserves rate (overnight repos)
+- Interbank rate
+
+*El corredor de la política monetaria*
+
+Zero lower bound.
+
+- La tasa, como cualquier precio, se determina por el equilibrio entre oferta y DemandaDado una demanda por reservas (requerimientos de liquidez y depósitos por parte de bancos), el Banco Central altera H (oferta).
+
+
+### **2. Operaciones de cambio**
+
+El Banco Central podría aumentar H alterando su nivel de reservas de R*.
+
+- Se compará moneda extranjera, y la inyecto a la economía.
+
+- Hay que tener cuidado pues el *tipo de cambio* (TC) es flexible, el banco central no altera R* y exita hacer operaciones de cambio.
+
+- De hecho, aumentar el M tare un efecto en la tasa de interés lo que finalmente afectará al TC (lo estudiaremos más adelante).
+
+Ahora, el Banco Central podría alterar R* sin modifcar H. Recoremos que el BC busca también dar estabilidad del sistema financiero.
+
+- Operación esterilizada
+
+Entonces, las reservas sirven como
+
+¿Cómo podrían cambiar las reservas internacionales el BC sin modificar H?
+- Intervención esterlizada
+- En el caso que aumente R, puede ser contrarrestado con  **contracredito interno**
+- Repactar la deuda nacional con moneda internacional, y esa moneda internacional la guardo y no la dejo dentro de la economía.
+
+**3. Modificación del encaje legal $\theta$**
+
+Si bien en las reuniones de Basilea se define el $\theta$, producirá cambios en M. Lo común es que los bancos mantengan lo mínimo legal, pero a veces se cambia el teta aumentando para evitar corridas bancarias.
+
+
+Preguntas:
