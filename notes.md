@@ -599,3 +599,131 @@ Si bien en las reuniones de Basilea se define el $\theta$, producirá cambios en
 
 
 Preguntas:
+
+## Clase 5: Demanda por dinero
+
+Miramos desde el Banco Central todo lo que tiene que ver con la oferta de dinero. Pero, como todo en economía, si hay oferta hay demanda. La demanda por dinero es un poco más abstracta. Las preguntas claves son ¿por qué la gente quiere dinero? ¿cuál es el precio del dinero?
+
+**Demanda por dinero en equilibrio parcial**
+Dos teorías ocuparemos sobre la gente que demanda dinero
+1. Modelo Baumol - Tobin (BT)
+  - Modelos estáticos
+2. Modelo "Cash in Advance" (CIA)
+  - Modelos dinámicos
+
+### Modelo Baumol - Tobin
+
+- Preguntas: ¿ cuáles son los determinantes de la demanda por dinero? El modelo B-T intenta entender la demanda por dinero enfocando en la función del dinero como medio de intercambio.
+
+**Supuestos claves**
+- Dinero es necesario para comprar/vender bienes
+- Usar dinero tiene un costo de oportunidad
+- El dinero es demandando por la gente para realizar transacciones, y va al banco a hacer las transacciones.
+
+**La lógica**
+- Los agentes necesitan Y pesos para gastar (hacer intercambios) en un años
+
+  - El gasto es uniforme: Un agente gasta Y x dt en cada intervalo de duración dt.
+  - Podemos pensar en Y como un ingreso total de un agente.
+
+- Los intercambios se realizan solamente con circulante (en efectivo)
+  -  Para simplificar, supone,os que los depósitos en el banco no son dinero por ahora, como si fueran muy poco líquidos (ver ejercicio 2.1 en el Workbook para relajar este supuesto)
+
+- Todavía, agentes necesitan ir al banco para hacer retiros de efectivo. Estos retiros serán costosos.
+
+**Opciones de los agentes**
+
+1. Opción (1): gastar i pesos, que lo voy gastando a lo largo del años. Se va una vez al banco y se retira "i" de pesos.
+
+2. Opción (2): ir dos veces al banco, y retirar y/2 cada vez que voy al banco. ¿Cuanto es la tenencia promedio de este agente?
+
+n. Opción (**n**)
+Ir n veces al banco y retirar y/n cada vez
+
+
+**Qué va a elegir óptimamente los agentes**
+
+- Costo de oportunidad de usar dinero = *i* (tasa de interés)
+- Z  = costo (exógeno) de ir banco hacer retiros
+- Los agentes minimizan:
+  -
+
+- Individuos reciben ingreso Y (exógeno), en su cuenta de ahorro (no cuenta corriente, sino una que tiene algo de interés)
+
+- Dicho dinero debe ser gastado completamente en un lapso de tiempo (ejemplo: un mes o un año). No puedo ahorrar al siguiente mes.
+
+- El dinero ahorrado reciben intereses iguales a $i$. Ahora asumiremos la existencia de una tasa de interés.
+
+- Z: Costo fijo de trasladar fondos de su cuenta de ahorro a la cuenta corriente (efectivo). Antiguamente hablabamos de ir el costo de ir al banco (en tiempo), hoy eso es más raro.
+  - Suponga que Z como costos asociados a la transacción (rescate) o costos asociados
+  - Podemos pensar en la prima que te exigen cuando quieres sacar esa plata de fondos mutuos y llevarla a tu cuenta corriente.
+
+- Sea n el número de retiros realizados por el inidivudo en una unidad de tiempo.
+- Asumiendo que cada retiro es de magnitud R (es decir, siempre gasta/retira lo mismo):
+
+$$nR = Y \Longrightarrow \frac{Y}{n} = n$$
+
+- El "trade off" de no llegar y sacar todo es el *interés* (si lo saco, dejo de ganar la tasa de interés asociado a tener ese ahorro).
+
+
+En el dibujo de la clase:
+
+- $\frac{R}{2}$ nos indica el retiro promedio que es informativo porque
+  - Y $R = \frac{y}{n}$, el dinero promedio será $\frac{y}{2n}$
+
+Dada la linealidad impuesta en la demanda ¿cuánto es la demanda promedio de dinero **por unidad de tiempo**?
+  - Punto medio entre demanda máxima
+
+- ¿Cuáles son los costos?
+
+1. Costo de oportunidad: dinero promedui que dejo de recibir por realizar n retiros durante el mes
+2. Costo de retiro: cada retiro tiene asociado un costo Z
+
+minimizaremos $C (n) = (\frac{y}{2n}i + zn)$
+
+Elegiremos el *n* óptimo (o R óptimo, pues el y es exógeno).
+
+La demanda por dinero está dada por $ud^d = (\frac{yz}{2i})$. De ello podemos decir
+
+- El precio del dinero es $i$, que tiene que ver con el costo de oportunidad. Lo cuál tiene sentido pues la demanda por dinero será negativa cuando el interés aumentar
+- La relación será positiva con ingreso, pues entre mayor este más posibilidad de demandar dinero tendré
+- Si el costo es muy grande (Z) será racional sacar más dinero.
+
+Si el Banco Central ya mira la oferta del dinero $u^o$. Las familias y empresas se preocuparán por la $u^d$.
+
+La presencia de una tasa de interés hace que no sea óptimo rescatar completamente los fondos. **Precio del dinero es la tasa de interés**.
+
+**Elasticidades**
+
+Aplicando el logaritmo (ln) a la Demanda (linealizar)
+
+$$ud^d = \frac{yz}{2i}^\frac{1}{2}$$
+
+Podemos calcular la derivada parcial del ingreso y con ello vamos a tener la **elasticidad** de la demanda del dinero con respecto al ingreso.
+
+$$ \frac{\partial ln u^d}{\partial ln y} = \frac{1}{2}$$
+
+También la elasticidad en relación a la tasa de interés (o precio del dinero)
+
+$$ \frac{\partial ln u^d}{\partial ln i} = - \frac{1}{2}$$
+
+Como podemos ver es **negativo**. Si aumento mi ingreso es muy costoso mantenerlo en el bolsillo, si la tasa de interés aumenta. Por ello, si sube el interés, mi demanda por dinero va a disminuir cuando mis ingresos aumentan. 
+
+
+Ahora puedo ver en la realidad si estas proyecciones del modelo se cumplen (si se acerca al 0,5 o -0,5). Si no es así, es probable que al modelo le falta. En econometría diríamos que estos modelos son testeables.
+
+En los datos debemos comprobar si estas elasticidades se cumplen.
+
+Ejemplo:
+
+- Si mi ingreso sube 10%, mi demanda por dinero sube 5%. No sube 1 a 1 pues esta igual, no solo depende de subir mis ingresos sino que también de n. Esto pues en la medida en que subo mis ingresos también voy a hacer más retiros (pues mi ingreso será más grande)
+
+- Si la tasa de interés aumenta en 10%, mi demanda por dinero disminuye 5%. Pero se debbe considerar *la base* si digo 10%  y estaba en 1% es que subió a 11%.
+
+**Ilusión monetaria**
+
+- Primero, pensamos en el dinero pero relativo a lo real. Cuanto me alcanza comprar con mis ingresos. "El saber cuánto vale lo que se gana".
+
+Puedo volver a escribir la demanda de dinero, pero ahora considerando el ingreso real.
+
+Ilusión monetaria es creer que lo nominal es lo real. El modelo no sufre ilusión monetaria, pues si las cosas son 3% más caras, yo demandaré 3% más de dinero. No siempre pasa eso en economía (los modelos sufren de eso) y también las personas en psicología.
