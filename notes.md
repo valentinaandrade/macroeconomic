@@ -707,7 +707,7 @@ También la elasticidad en relación a la tasa de interés (o precio del dinero)
 
 $$ \frac{\partial ln u^d}{\partial ln i} = - \frac{1}{2}$$
 
-Como podemos ver es **negativo**. Si aumento mi ingreso es muy costoso mantenerlo en el bolsillo, si la tasa de interés aumenta. Por ello, si sube el interés, mi demanda por dinero va a disminuir cuando mis ingresos aumentan. 
+Como podemos ver es **negativo**. Si aumento mi ingreso es muy costoso mantenerlo en el bolsillo, si la tasa de interés aumenta. Por ello, si sube el interés, mi demanda por dinero va a disminuir cuando mis ingresos aumentan.
 
 
 Ahora puedo ver en la realidad si estas proyecciones del modelo se cumplen (si se acerca al 0,5 o -0,5). Si no es así, es probable que al modelo le falta. En econometría diríamos que estos modelos son testeables.
@@ -727,3 +727,52 @@ Ejemplo:
 Puedo volver a escribir la demanda de dinero, pero ahora considerando el ingreso real.
 
 Ilusión monetaria es creer que lo nominal es lo real. El modelo no sufre ilusión monetaria, pues si las cosas son 3% más caras, yo demandaré 3% más de dinero. No siempre pasa eso en economía (los modelos sufren de eso) y también las personas en psicología.
+
+
+## Clase 6
+
+A partir de lo que hace el Banco Central, subir, 0,75 puntos bases.
+1. Rol del Banco Central
+2. Tiempos de la política monetaria
+
+Estamos en un momento donde la inflación está en alza.
+- La incertidumbre hace que la economía se frene: los precios tienden a subir (subiendo los markups) y la contratación y empleo la incertidumbre frena las inversiones (veamos qué pasa y hagamos cosas).
+- Hay presión de la demanda agregada y oferta agregada. No tiene que ver solo con la demanda. Pensemos, por ejemplo, la oferta de empleo por ejemplo sigue sin recuperarse completamente (inactividad y ocupación informal). Ellos no se ven corregidos sus salarios por la inflación.
+
+**IPOM** (página 43)
+
+- Lo contracícilico y cíclico: movimiento de la demanda y oferta si se dan en la misma dirección o no.
+
+- El consejo subió TPM hasta 1,5% en agosto (+75 pb), tras haberla incremetado en 25 pb en julio, y anticiá continuará retrando retirando el impulso monetario para llevar la TPM a niveles en torno a su valor neural hacia mediados del primer semestre del 2022.
+
+**Corredor de TPM**, en la EEE se pensaba que sería menos. Los insumos son diferentes encuestas y proyecciones de escenarios (incluso con COVID).
+
+**Inflación le esta afectado a los quintiles más bajos:** lo que sube su precio son los bienes de primera necesidad.
+
+Hay trade-offs, tiene que decidir. No puede generar aumento sobre salarios, sin producir efectos en el desempleo.
+
+
+### Modelo in Cash in Advance
+
+La política monetaria es neutral en el largo plazo, nos sirve para salir del ciclo económico y no para el crecimiento general de, país.
+
+Recursión de Bellman: un punto fijo donde se vacía la oferta y demanda (t y t+1).
+
+**Preliminares**
+
+- Agente homogéneo (hogar)
+- El bien se utiliza tanto para consumo (C) como capital (k)- Función de producción neo-clásica y no hay incertidumbre.
+
+El consumidor define sus trayectorias
+1. Consumo en cada perdiodo
+2. Inversion en capital en cada periodo
+3. Tenencia de bonos
+4. Demanda por dinero
+
+
+**El problema del consumidor representativo**
+
+**Restricción presupuestaria**
+- Veamos las cuatro decisiones que tengo: consumir hoy por un bien, inventir por un bien, invertir en bonos y cuánto yo necesito de dinero para consumir. Estos son los gastos.
+
+- La riqueza asociada es similar considerando el pasado.
