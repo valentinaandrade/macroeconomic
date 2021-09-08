@@ -7,6 +7,7 @@
   - [De Gregorio (2007) Macroeconomía: teoría y política](#de-gregorio-2007-macroeconomía-teoría-y-política)
     - [Capítulo 15: Teoría cuantitativa, neutralidad y demanda por dinero](#capítulo-15-teoría-cuantitativa-neutralidad-y-demanda-por-dinero)
     - [5.1 La función del dinero](#51-la-función-del-dinero)
+    - [15.5 Demanda por dinero](#155-demanda-por-dinero)
   - [Capítulo 16: La oferta de dinero, política monetaria e inflación](#capítulo-16-la-oferta-de-dinero-política-monetaria-e-inflación)
     - [16.1 La oferta de dinero](#161-la-oferta-de-dinero)
   - [16.2 : La política monetaria](#162-la-política-monetaria)
@@ -95,6 +96,28 @@ $$M_2 = M_1 + D_p$$ (2), donde
 2. Dinero fiduciario: sin valor intrínseco, sino que vale lo que la gente acepta para **transacciones** (más allá de lo normativo o legal)
 
 El **valor del dinero depende de la cantidad de bienes que puede comprar**.  Por eso, en países donde hay inflación, es lo mismo decir "el precio de los bienes sube" o " el precio del dinero baja".
+
+### 15.5 Demanda por dinero
+
+Una versión de la teoría cuantitativa del dinero es **demanda por dinero** que veremos por motivos de transacción que no solo dependen de la (1) liquidez (necesidad de transacción) sino que del (2) retorno de activos financiero ($F$).
+
+$$F = M + B$$
+
+Los activos financieros se pueden rendir en saldos reales como dinero (M) y bonos (B), que rinde interés nominal. M y B son demandados por individuos sujeto a la restricción de $F$ (decisión de **portafolio**, que es más M o más B).
+
+En problema de maximización de rentabilidad de $F$, demandará menos $M$ por su retorno nominal 0, y más de $B$ por retorno $i$. La **demanda por dinero** dependerá entonces de el número de transacciones y de la tasa de interes $i$
+
+$$\frac{M}{P} = L(y,i)$$
+
+- $y$ ingreso o PIB (que nos permite aproximarnos al número de transacciones)
+- $i$ representará el **costo de oportunidad del dinero**. Si la tasa de interés sube, demando menos dinero (me conviene que esté en el banco)
+- $L$ función creciente en y, y decreciente en $i$.
+
+El dinero, al igual que los bienes como el capital tiene pérdidas y ganancias según como cambien el precio. El precio del dinero es el inverso del precio de los bienes d toda la economía:
+- $\nearrow$ inflación, $\searrow$ valor del dinero **proporcionalmente a la tasa de inflación.** (depreciación).
+
+
+
 
 ## Capítulo 16: La oferta de dinero, política monetaria e inflación
 
@@ -416,8 +439,7 @@ A lo largo de la disciplina se han desarrollado tres perspectivas respecto del r
 
 - Monetary policy is an assistant to governemnt spending: helps to maintining high level of aggreate demand.
 
-- Rol:
-- Chief crteria of monetary policy: promotion of full employment, with the prevention of inflation (but secondary)
+- Chief criteria of monetary policy: promotion of full employment, with the prevention of inflation (but secondary)
 
 ### La política monetaria y la oferta de dinero
 
