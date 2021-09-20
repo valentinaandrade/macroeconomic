@@ -776,3 +776,6 @@ El consumidor define sus trayectorias
 - Veamos las cuatro decisiones que tengo: consumir hoy por un bien, inventir por un bien, invertir en bonos y cuánto yo necesito de dinero para consumir. Estos son los gastos.
 
 - La riqueza asociada es similar considerando el pasado.
+
+Cash in Advance
+cuanto yo quiera mas consumir, esa decision viene amarrada por la ddcisiom de bolsillo de ayer. Puedo consumir hoy esta amarrada a la demanda de dinero de ayer.
