@@ -28,6 +28,11 @@
   - [Discusiones](#discusiones)
   - [Friedman](#friedman)
   - [Implementación PM](#implementación-pm)
+  - [Obstfeld and Rogoff](#obstfeld-and-rogoff)
+    - [Chapter 8: Money and exchanges rates under flexible prices](#chapter-8-money-and-exchanges-rates-under-flexible-prices)
+      - [Cagan Model (1965)](#cagan-model-1965)
+      - [Seignorage](#seignorageseignorage)
+        - [Dollarization](#dollarization)
 
 <!-- /code_chunk_output -->
 
@@ -437,7 +442,7 @@ A lo largo de la disciplina se han desarrollado tres perspectivas respecto del r
 -  *Keynesianism* indicates that monetary policy affect aggregates demand, but not the interest rate.
   -  In a world of flexible prices, a position of equilibrium at full employment might not exist. Unemployment had again to be explained by rigidities or **imperfections**, *not as the natural of a fully operative market process*.
 
-- Monetary policy is an assistant to governemnt spending: helps to maintining high level of aggreate demand.
+- Monetary policy is an assistant to government spending: helps to maintining high level of aggreate demand.
 
 - Chief criteria of monetary policy: promotion of full employment, with the prevention of inflation (but secondary)
 
@@ -516,11 +521,11 @@ Despite cannot peg real magnitudes, there is an important **effect over these ma
     - In prices and wages, thus cannot adjust to dinamic changes and technology.
     - Normative rules can change absolute levels of prices but are not economic tools
 
-    **Relationship with goverment**
+    **Relationship with government**
     - Central Banks will be impersonal and delibertaed, to do automatic process when is needed.
 
   **3. Contribute to offsetting major**
-    - Disturbances in economic system (postwar, COVID, etc) can contains with money supply. But the first task to monetary authority is **protect inflationary***. This can helps goverment, deficit in balance of payment flows *without sterilizing*.
+    - Disturbances in economic system (postwar, COVID, etc) can contains with money supply. But the first task to monetary authority is **protect inflationary***. This can helps government, deficit in balance of payment flows *without sterilizing*.
     - Also, monetary policy in offsetting other (non-economic) forces is **limited**
     - Central Banks can do policy when they offer a *clear* and *present* danger to the economy.
 
@@ -578,3 +583,60 @@ Luego está el Banco Central como acreedor (o FDE) le da plata a los bancos, com
 - Corridor: se fija piso y techo, y se trabaja con operaciones de mercado abierto.
 
 - Floor: se fija la tasa de interés sobre las reservas y lo que intentas estar pegada al piso.
+
+----
+
+## Obstfeld and Rogoff
+
+### Chapter 8: Money and exchanges rates under flexible prices
+
+Models with money
+
+1. Function of money: serves as a **medium of exchange** that reduces real transactions costs
+2. Can address problems such determinants of [1. seignorage](#seignorage), [2. the mecanism of exchange rate system](#exchange) and [3. long-run effects of money-supply changes on prices and exchange rates]
+
+Important questions
+
+- Wheter fixed-exchange-rate regimes are sustainable for long in world of highly mobile international capital. (Models of speculative attack)
+- Uncertain and excange rate target zones
+- International money markets
+
+**Assumption**
+
+1. Nominal prices are flexible: they adjust inmediately to *clear* product, factor and asset market. In short-run isn't realistic, but in hyperinflations context nominal price inflexibility is unimportant.
+
+
+#### Cagan Model (1965)
+
+- Insight to inflation dinamycs[^cagan] and seignorage.
+- Open-economy extension provides point to nominal exchange rates, which are relative prices of different currencies.
+- Special case of the **LM Curve**, a simplified form of the *Keynes and Hicks (1936)* curve ($\frac{M^d_t}{P_t}= L (Y_t, i_{t+1})$[^tcd])
+
+[^tcd]: Rise in aggregate real output (Y) raises the transaction demand for real balances, rise in nominal interest rate raises the opportunity cost of holding money (buying a bond).
+
+$\frac{M}{P}$ (demand for real money) depends on **expected future price-level inflation** ($\uparrow \frac{P_{t+1}}{P_t}$ or $\pi^e_{t+1}$) and higher expected inflation lowers demand for real balances by raising oportunity cost of holding money ($i_t$)
+
+
+[^cagan]: Cagan (1965) studied seven **hyperinflations**. He defined hyperinflations as the price level of good in terms of money rises at a rate averaging at least 50 percent per month
+
+Log linear form Cagan Model where $m \equiv log M, p \equiv log P$ and $\eta \equiv $ **semielasticity** of demand for real balances with the respect of inflation.
+
+$$m^d_t - p_t = \eta(pt_{t+1} - p_t) $$
+
+Note $m^d_t$ denotes the log of *nominal* money balances held in the period *t*
+
+**Results**
+
+- Neutrality of money:
+- During hyperinflation, expected future inflation swamps all other influences on money demand
+
+
+#### [Seignorage](#seignorage)
+
+- Assumes each national government is a **monopoly** issuer of the currency used in domestic transactions.
+
+- **Coordination problem**: currency is a **fiat money** with no intrinsic valye aside from its usefulness in facilitating trade. This is important because individuals value money unless is valued by *others*. Reaching an **equilibrium** about use and value of money is a coordination problem.
+
+#####  Dollarization
+
+- Instead monopoly of government, we model **currency substitution** in which a more stable foreign currency circulates.
