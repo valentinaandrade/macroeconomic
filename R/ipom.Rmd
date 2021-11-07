@@ -1,0 +1,128 @@
+---
+title: "Central Bank - Reports"
+subtitle: "Macroeconomics II"
+author: "Valentina Andrade"
+date: "5 november 2021"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    number_sections: F
+    pandoc_args: !expr rmdfiltr::add_wordcount_filter()
+linkcolor: red
+urlcolor: blue
+link-citations: yes
+fontsize: 11pt
+geometry: margin=1in
+classoption:
+- twocolumn
+- landscape
+documentclass: report
+lang: "es-CL"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# IPOM
+
+## Septiembre
+
+- La economía está creciendo fuertemente impulsada por las políticas públicas, la capacidad para adaptarse a nuevas circunstancias y el control de la pandemia. La actividad no responde solo a variables económicas sino que también sanitarias
+
+- El crecimiento se ha sesgado cada vez más hacia el **consumo** por los retiros de AFP e IFE, dando mayor liquidez a estos. 
+
+- La economía chilena ha crecido de 10 a 11,5%, con una diferencia de 2%. Lo que viene después es menor pues el agotamiento de los fondos de pensiones, la disminución de la política fiscal y la acción de la política monetaria. Se pronostica un crecimiento de 2,5% en promedio. 
+
+- La oferta no ha recuperado completamente, por lo que han cambiado las  producido **presiones inflacionarias**
+
+  - La inflación a julio reportada es de 4,5% anual
+  - Las perspectivas de inflación también han crecido, llegando a estimarse una de 5,7% de inflación a fin de año, y que permanezca sobre 5% durante la primera mitad del 2022
+
+- Las presiones inflacionarias se ven acrecentadas por la **depreciación del precio tiene un carácter idiosincrático**[^idio]:
+    - Percepción empeoramiento economía por liquidación de ahorros por retiros previsionales
+    - Erosión cuentas fiscales
+    - Entorno de alta incertidumbre local
+
+- Se reflejan en u deterioro de las condiciones financieras: tipo de cambio, tasa de interés, primas de riesgo y precios de la bolsa se ven con desarrollo desfavorable cuando se comparan con similes externos
+    
+- Para asegurar que la inflación llegue a la meta de 3% en un plazo de 2 años
+    - Aumento en 75 puntos bases, ubicandola en un 1.5%
+    - Requiere reducir el impulso monetario, llegando la TPM a sus valores convencionales a mediados del primer semestre del 2022
+
+- La trayectoria de TPM puede sufrir cambios
+
+  - El escenario de que se produzcan mayores presiones inflacionarias es mayor
+  - Gasto publico se reduzca lento
+  - Consumo siga siendo alto
+  - Inflación de las economías desarrolladas sea más alto de lo esperado
+  - La TPM estará por el borde superior del corredor de tasas
+
+- Situación distinta será si el consumo tiene un dinamismo menor del contemplado [^consumo]
+  - Por recrudiciendo de la pandemia
+  - O porque se produzca un adelatamiento de la demanda, si se reduce la incertidumbre 
+  - Reduciría las presiones inflacionarias
+
+- Otros escenarios
+
+  - Estabilidad por finanzas públicas
+  - Nuevos retiros de AFP: percepción de que es un proceso que va a continuando al tiempo
+  - Si se da eso, no alcanzarían las facultades e instrumentos del Banco Central para restaurar el equilibrio macroeconómico pues estaríamos con un cambio estructural de economía
+  - Banco Central busca estabilizar el crecimiento de la inflación. Ello no solo ayuda a los hogares del país, sino que a la recuperación de ahorros del país, y recuperación de mujeres a la fuerza de trabajo.
+
+### Preguntas 
+
+- 4 Retiro de Fondos Previsionales
+  - Inflación mayor a 5,7%, tomando en cuenta que los factores que operarían en este no tiene que ver tanto con demanda y gasto (dado que se concentran en personas con mayores ingresos en la población), sino que en el tipo de cambio y del tipo de cambio hacia la formación de precios en la economía
+
+- Aumento de tasas de interés
+  - Se prevee que subirán más, hay una gran liquidez y las encuestas de percepciones bancarias, la demanda por crédito han disminuido.
+  - Ingresos de carácter transitorio
+  - Quienes retiren fondos, idealmente ahorrar (pues tendrán mayores retornos)
+  
+- Banco Central se anticipa a las trayectorias de la inflación y sus expectativas
+  - Política monetaria menos expansiva
+  - Mira hacia adelante, no va detrás de la curva
+  - Si sale el 4 Retiro la TPM subirá, pero no en base a discusión política y legislativa.
+
+- La economía no se ve más débil
+  - Dado el dinamismo del consumo, pero si es más, eso podría producir un aumento de inflación
+  - Se intentará controlar eso para evitar que no sea carácter permanente
+
+- Impacto del aumento de la TPM sobre la inversión
+
+  - Inversión se recupera en carácter de capital físico (16%), aunque si se compara con consumo es algo menor. Algo no esperado pues uno esperaría que en un periodo de recuperación económica se esperaría que la inversión tuviera una volatilidad mayor que el consumo. La recuperación es más lenta en inversión que consumo. Eso se refleja que carteras de inversión de gran embergadura no se están renovando, más allá que las de energías renovables.
+  - Promover inversión de más envergadura de empresas grandes y Estado, pero la TPM no solo afecta a la inversión, sino que el aumento de las tasas de interés a largo plazo, la mayor incertidumbre y el hecho de que el financiamiento de las inversiones interno es poco, por lo que se requiere externo. Y el financiamiento externo está sujeto a los cambios externos, lo que puede importar presiones inflacionarias externas.
+    - Tasas de ahorro a largo plazo afectadas por los retiros de pensiones
+    - Incertidumbre por cómo se van a gastar los dineros públicos en el futuro
+    - Ambos elementos están dentro de decisión de política, pero se tendrá noción de eso por Ley de Presupuesto y Cuarto Retiro. Por ello, tiene que ver mucho con **factores idiosincráticos** de Chile. Esto se refleja igual en el tipo de cambio, tasas de interés a largo plazo, y además, en las finanzas públicas. 
+
+- Programa de Acumulación de Reservas
+  - Las compras diarias representan un 3% dentro del mercado cambiario, por lo que no produce cambios en el tipo de cambio
+  - Son un "seguro" ante shocks externos, y que han permitido implementar *holguras*, políticas *más agresivas* para enfrentar la crisis. Pero se deben reponer estas reservas para enfrentar shocks futuros. 
+
+- Dado el mayor impulso del gasto y presiones inflacionarias que se están incumbando
+  - Se requiere un esfuerzo más grande para disminuir esto
+  - La TPM en su nivel neutral 3,5%, entre el primer semestre del 2022
+  - 5,7% en la parte superior del corredor si se acrecenta la incetidumbre
+  
+- Empleo
+
+  - Recuperación del empleo asalariado e informal 
+  
+- Inflación transitorio
+  - Presión por parte de la oferta: pandemia produce problemas de transporte y distribución (tiempo de espera, costos)
+  - Aumento costo del combustible
+  - La inflación se proyectaba 4,4% pero ahora 4,5%, entonces estos factores transitorios solo explican 1%. Pero el resto tiene que ver con factores macroeconómicos como el aumento de la demanda agregada.
+  - La inflexión de la inflación responderá no solo al fin de estas características transitorias, sino a la acción del Banco Central.
+
+- Crecimiento
+  - Se va a desacelerar, pero no se va a perder. Por eso hay que ver niveles de producto (de actividad), más que la variación. Pues si se compara con este año el próximo de seguro ese crecimiento será menor.
+  
+[^idio]: propio del desarrollo de Chile, no tiene que ver con caída de precios de commodities o caída del precio del combustible 
+[^consumo]: que se estanque o adelante
+  
+  
